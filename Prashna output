@@ -1,0 +1,44 @@
+Testing started at 20:04 ...
+C:\Ruby27-x64\bin\bundle.cmd exec C:\Ruby27-x64\bin\ruby.exe -EUTF-8 C:\Ruby27-x64\lib\ruby\gems\2.7.0\gems\ruby-debug-ide-0.8.0.beta24\bin\rdebug-ide --key-value --step-over-in-blocks --disable-int-handler --evaluation-timeout 10 --evaluation-control --time-limit 100 --memory-limit 0 --rubymine-protocol-extensions --port 53798 --host 0.0.0.0 --dispatcher-port 53799 -- C:\Ruby27-x64\bin\cucumber C:/Users/vinlaptop/apitesting/features/prashna.feature --format Teamcity::Cucumber::Formatter --expand --color -r features
+Fast Debugger (ruby-debug-ide 0.8.0.beta24, debase 0.3.0.beta34, file filtering is supported, block breakpoints supported, smart steps supported, obtaining return values supported, partial obtaining of instance variables supported) listens on 0.0.0.0:53798
+
+WARNING: #puts(message) is deprecated and will be removed after version 5.0.0. Messages emitted with "puts" will no longer be caught by Cucumber and sent to the formatter. If you want message to be in the formatted output, please use log(message) instead.
+If you simply want it in the console, keep using "puts" (or Kernel.puts to avoid this message).
+(Called from C:/Users/vinlaptop/apitesting/features/step_definitions/prashnaa_steps.rb:11:in `block in <top (required)>')
+
+
+
+Sending the  api request topic wise
+
+WARNING: #puts(message) is deprecated and will be removed after version 5.0.0. Messages emitted with "puts" will no longer be caught by Cucumber and sent to the formatter. If you want message to be in the formatted output, please use log(message) instead.
+If you simply want it in the console, keep using "puts" (or Kernel.puts to avoid this message).
+(Called from C:/Users/vinlaptop/apitesting/features/step_definitions/prashnaa_steps.rb:13:in `block in <top (required)>')
+
+200
+
+
+{"error":"Too many requests, please try after some time."}
+WARNING: #puts(message) is deprecated and will be removed after version 5.0.0. Messages emitted with "puts" will no longer be caught by Cucumber and sent to the formatter. If you want message to be in the formatted output, please use log(message) instead.
+If you simply want it in the console, keep using "puts" (or Kernel.puts to avoid this message).
+(Called from C:/Users/vinlaptop/apitesting/features/step_definitions/prashnaa_steps.rb:18:in `block in <top (required)>')
+
+
+Matching
+WARNING: #puts(message) is deprecated and will be removed after version 5.0.0. Messages emitted with "puts" will no longer be caught by Cucumber and sent to the formatter. If you want message to be in the formatted output, please use log(message) instead.
+If you simply want it in the console, keep using "puts" (or Kernel.puts to avoid this message).
+(Called from C:/Users/vinlaptop/apitesting/features/step_definitions/prashnaa_steps.rb:24:in `block in <top (required)>')
+
+
+
+{:date=>"Wed, 02 Sep 2020 14:34:31 GMT", :server=>"Apache/2.4.29 (Ubuntu)", :cache_control=>"max-age=0, private, must-revalidate", :referrer_policy=>"strict-origin-when-cross-origin", :x_permitted_cross_domain_policies=>"none", :x_xss_protection=>"1; mode=block", :x_request_id=>"a5ec097b-77eb-417a-9c53-dfb0170f2a12", :x_download_options=>"noopen", :x_frame_options=>"SAMEORIGIN", :x_runtime=>"0.022595", :x_content_type_options=>"nosniff", :x_powered_by=>"Phusion Passenger 6.0.4", :etag=>"W/\"5608704ef38124a83024ef124ae26996\"", :status=>"200 OK", :transfer_encoding=>"chunked", :content_type=>"application/json; charset=utf-8"}WARNING: #puts(message) is deprecated and will be removed after version 5.0.0. Messages emitted with "puts" will no longer be caught by Cucumber and sent to the formatter. If you want message to be in the formatted output, please use log(message) instead.
+
+If you simply want it in the console, keep using "puts" (or Kernel.puts to avoid this message).
+(Called from C:/Users/vinlaptop/apitesting/features/step_definitions/prashnaa_steps.rb:33:in `block in <top (required)>')
+
+WARNING: #puts(message) is deprecated and will be removed after version 5.0.0. Messages emitted with "puts" will no longer be caught by Cucumber and sent to the formatter. If you want message to be in the formatted output, please use log(message) instead.
+If you simply want it in the console, keep using "puts" (or Kernel.puts to avoid this message).
+(Called from C:/Users/vinlaptop/apitesting/features/step_definitions/prashnaa_steps.rb:28:in `block in <top (required)>')
+
+Working fine with Rest client
+
+Process finished with exit code 0
