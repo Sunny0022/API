@@ -1,0 +1,40 @@
+Testing started at 16:00 ...
+C:\Ruby27-x64\bin\bundle.cmd exec C:\Ruby27-x64\bin\ruby.exe -EUTF-8 C:\Ruby27-x64\lib\ruby\gems\2.7.0\gems\ruby-debug-ide-0.8.0.beta24\bin\rdebug-ide --key-value --step-over-in-blocks --disable-int-handler --evaluation-timeout 10 --evaluation-control --time-limit 100 --memory-limit 0 --rubymine-protocol-extensions --port 53043 --host 0.0.0.0 --dispatcher-port 53044 -- C:\Ruby27-x64\bin\cucumber C:/Users/vinlaptop/apitesting/features/test.feature --format Teamcity::Cucumber::Formatter --expand --color -r features
+Fast Debugger (ruby-debug-ide 0.8.0.beta24, debase 0.3.0.beta34, file filtering is supported, block breakpoints supported, smart steps supported, obtaining return values supported, partial obtaining of instance variables supported) listens on 0.0.0.0:53043
+
+
+Hello World
+
+
+WARNING: #puts(message) is deprecated and will be removed after version 5.0.0. Messages emitted with "puts" will no longer be caught by Cucumber and sent to the formatter. If you want message to be in the formatted output, please use log(message) instead.
+200If you simply want it in the console, keep using "puts" (or Kernel.puts to avoid this message).
+(Called from C:/Users/vinlaptop/apitesting/features/step_definitions/test_steps.rb:16:in `block in <top (required)>')
+
+Hello World
+
+
+WARNING: #puts(message) is deprecated and will be removed after version 5.0.0. Messages emitted with "puts" will no longer be caught by Cucumber and sent to the formatter. If you want message to be in the formatted output, please use log(message) instead.
+{"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://s3.amazonaws.com/uifaces/faces/twitter/josephstein/128.jpg"},"ad":{"company":"StatusCode Weekly","url":"http://statuscode.org/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}}If you simply want it in the console, keep using "puts" (or Kernel.puts to avoid this message).
+
+Hello World
+(Called from C:/Users/vinlaptop/apitesting/features/step_definitions/test_steps.rb:22:in `block in <top (required)>')
+
+Hello World
+
+WARNING: #puts(message) is deprecated and will be removed after version 5.0.0. Messages emitted with "puts" will no longer be caught by Cucumber and sent to the formatter. If you want message to be in the formatted output, please use log(message) instead.
+
+{"name":"morpheus","job":"leader","id":"230","createdAt":"2020-09-02T10:31:03.296Z"}If you simply want it in the console, keep using "puts" (or Kernel.puts to avoid this message).
+
+(Called from C:/Users/vinlaptop/apitesting/features/step_definitions/test_steps.rb:33:in `block in <top (required)>')
+Hello World
+
+Hello World
+
+WARNING: #puts(message) is deprecated and will be removed after version 5.0.0. Messages emitted with "puts" will no longer be caught by Cucumber and sent to the formatter. If you want message to be in the formatted output, please use log(message) instead.
+If you simply want it in the console, keep using "puts" (or Kernel.puts to avoid this message).
+
+{"name":"morpheus","job":"zion resident","updatedAt":"2020-09-02T10:31:06.597Z"}(Called from C:/Users/vinlaptop/apitesting/features/step_definitions/test_steps.rb:51:in `block in <top (required)>')
+
+Hello World
+
+Process finished with exit code 0
